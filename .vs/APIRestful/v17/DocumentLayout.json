@@ -1,0 +1,98 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\dataware\\APIRestful\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{11373990-FED1-4E38-8DC6-1911ADB08C9C}|APIRestful.csproj|d:\\dataware\\apirestful\\models\\dto\\movie\\movieupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11373990-FED1-4E38-8DC6-1911ADB08C9C}|APIRestful.csproj|solutionrelative:models\\dto\\movie\\movieupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11373990-FED1-4E38-8DC6-1911ADB08C9C}|APIRestful.csproj|d:\\dataware\\apirestful\\models\\dto\\movie\\moviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11373990-FED1-4E38-8DC6-1911ADB08C9C}|APIRestful.csproj|solutionrelative:models\\dto\\movie\\moviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11373990-FED1-4E38-8DC6-1911ADB08C9C}|APIRestful.csproj|d:\\dataware\\apirestful\\service\\iservice\\imovieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11373990-FED1-4E38-8DC6-1911ADB08C9C}|APIRestful.csproj|solutionrelative:service\\iservice\\imovieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11373990-FED1-4E38-8DC6-1911ADB08C9C}|APIRestful.csproj|d:\\dataware\\apirestful\\service\\iservice\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11373990-FED1-4E38-8DC6-1911ADB08C9C}|APIRestful.csproj|solutionrelative:service\\iservice\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 218,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MovieDto.cs",
+              "DocumentMoniker": "D:\\dataware\\APIRestful\\Models\\Dto\\Movie\\MovieDto.cs",
+              "RelativeDocumentMoniker": "Models\\Dto\\Movie\\MovieDto.cs",
+              "ToolTip": "D:\\dataware\\APIRestful\\Models\\Dto\\Movie\\MovieDto.cs",
+              "RelativeToolTip": "Models\\Dto\\Movie\\MovieDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T15:35:54.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "D:\\dataware\\APIRestful\\Service\\IService\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "Service\\IService\\ICategoryService.cs",
+              "ToolTip": "D:\\dataware\\APIRestful\\Service\\IService\\ICategoryService.cs",
+              "RelativeToolTip": "Service\\IService\\ICategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T15:31:58.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IMovieService.cs",
+              "DocumentMoniker": "D:\\dataware\\APIRestful\\Service\\IService\\IMovieService.cs",
+              "RelativeDocumentMoniker": "Service\\IService\\IMovieService.cs",
+              "ToolTip": "D:\\dataware\\APIRestful\\Service\\IService\\IMovieService.cs",
+              "RelativeToolTip": "Service\\IService\\IMovieService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T15:31:57.459Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 218,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MovieUpdateDto.cs",
+              "DocumentMoniker": "D:\\dataware\\APIRestful\\Models\\Dto\\Movie\\MovieUpdateDto.cs",
+              "RelativeDocumentMoniker": "Models\\Dto\\Movie\\MovieUpdateDto.cs",
+              "ToolTip": "D:\\dataware\\APIRestful\\Models\\Dto\\Movie\\MovieUpdateDto.cs",
+              "RelativeToolTip": "Models\\Dto\\Movie\\MovieUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T15:35:13.185Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
