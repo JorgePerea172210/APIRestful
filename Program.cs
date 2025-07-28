@@ -1,11 +1,14 @@
 using APIRestful.Data;
 using APIRestful.Mapper;
+using APIRestful.Models.Dto.AddMovieDto;
 using APIRestful.Models.Dto.Category;
+using APIRestful.Models.Dto.Movie;
 using APIRestful.Repository;
 using APIRestful.Repository.IRepository;
 using APIRestful.Service;
 using APIRestful.Service.IService;
-using APIRestful.Validators;
+using APIRestful.Validators.CategoryValidators;
+using APIRestful.Validators.MovieValidators;
 using FluentValidation;
 using Microsoft.EntityFrameworkCore;
 
@@ -19,13 +22,17 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 //Dependency injections for repositories
 builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+builder.Services.AddScoped<IMovieRepository, MovieRepository>();
 
 //Dependency injections for services
 builder.Services.AddScoped<ICategoryService, CategoryService>();
+builder.Services.AddScoped<IMovieService, MovieService>();
 
 //Validators
 builder.Services.AddScoped<IValidator<CategoryInsertDto>, CategoryInsertValidator>();
 builder.Services.AddScoped<IValidator<CategoryUpdateDto>, CategoryUpdateValidator>();
+builder.Services.AddScoped<IValidator<MovieInsertDto>, MovieInsertValidator>();
+builder.Services.AddScoped<IValidator<MovieUpdateDto>, MovieUpdateValidator>();
 
 //Mappers
 builder.Services.AddAutoMapper(typeof(CategoryMappers));

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\dataware\\APIRestful\\APIRestful.csproj": {}
+    "C:\\Users\\Practicante_SP\\Documents\\jorge\\APIRestful\\APIRestful.csproj": {}
   },
   "projects": {
-    "D:\\dataware\\APIRestful\\APIRestful.csproj": {
+    "C:\\Users\\Practicante_SP\\Documents\\jorge\\APIRestful\\APIRestful.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dataware\\APIRestful\\APIRestful.csproj",
+        "projectUniqueName": "C:\\Users\\Practicante_SP\\Documents\\jorge\\APIRestful\\APIRestful.csproj",
         "projectName": "APIRestful",
-        "projectPath": "D:\\dataware\\APIRestful\\APIRestful.csproj",
-        "packagesPath": "C:\\Users\\gatos\\.nuget\\packages\\",
-        "outputPath": "D:\\dataware\\APIRestful\\obj\\",
+        "projectPath": "C:\\Users\\Practicante_SP\\Documents\\jorge\\APIRestful\\APIRestful.csproj",
+        "packagesPath": "C:\\Users\\Practicante_SP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Practicante_SP\\Documents\\jorge\\APIRestful\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\gatos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Practicante_SP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

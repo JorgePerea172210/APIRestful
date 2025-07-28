@@ -1,7 +1,7 @@
 ﻿using APIRestful.Models.Dto.Category;
 using FluentValidation;
 
-namespace APIRestful.Validators
+namespace APIRestful.Validators.CategoryValidators
 {
     public class CategoryInsertValidator : AbstractValidator<CategoryInsertDto>
     {

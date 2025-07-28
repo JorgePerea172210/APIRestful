@@ -93,19 +93,35 @@ namespace APIRestful.Service
             return dto;
         }
 
-        public Task<Result<string>> UpdateMovie(CategoryUpdateDto update, int id)
+        public async Task<Result<string>> UpdateMovie(MovieUpdateDto update, int id)
         {
-            throw new NotImplementedException();
+            var movie = await _repository.GetById(id);
+            if (movie != null)
+            {
+                movie = _mapper.Map<MovieUpdateDto, Movie>(update, movie);
+                _repository.Update(movie);
+                await _repository.Save();
+                return Result<string>.Success("Movie update correctly");
+            }
+            return Result<string>.Failure(MovieErrors.InvalidMovieId);
         }
 
-        public Result<bool> Validate(CategoryInsertDto dto)
+        public Result<bool> Validate(MovieInsertDto dto)
         {
-            throw new NotImplementedException();
+            if (_repository.Search( m => m.Name == dto.Name).Count() > 0)
+            {
+                return Result<bool>.Failure(MovieErrors.MovieAlreadyExist);
+            }
+            return Result<bool>.Success(true);
         }
 
-        public Result<bool> Validate(CategoryUpdateDto dto, int id)
+        public Result<bool> Validate(MovieUpdateDto dto, int id)
         {
-            throw new NotImplementedException();
+            if (_repository.Search(m => m.Name == dto.Name && id != m.Id).Count() > 0)
+            {
+                return Result<bool>.Failure(MovieErrors.MovieAlreadyExist);
+            }
+            return Result<bool>.Success(true);
         }
     }
 }

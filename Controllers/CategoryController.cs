@@ -27,6 +27,8 @@ namespace APIRestful.Controllers
         }
 
         [HttpGet("GetCategories")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<IEnumerable<CategoryDto>> GetCategories()
             => await _categoryService.GetCategories();
 

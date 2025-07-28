@@ -13,9 +13,9 @@ namespace APIRestful.Service.IService
         Task<MovieDto> SearchMovie(string name);
         Task<Result<MovieDto>> GetMovie(int movieId);
         Task<Result<MovieDto>> CreateMovie(MovieInsertDto insert);
-        Task<Result<string>> UpdateMovie(CategoryUpdateDto update, int id);
+        Task<Result<string>> UpdateMovie(MovieUpdateDto update, int id);
         Task<Result<string>> DeleteMovie(int categoryId);
-        Result<bool> Validate(CategoryInsertDto dto);
-        Result<bool> Validate(CategoryUpdateDto dto, int id);
+        Result<bool> Validate(MovieInsertDto dto);
+        Result<bool> Validate(MovieUpdateDto dto, int id);
     }
 }
