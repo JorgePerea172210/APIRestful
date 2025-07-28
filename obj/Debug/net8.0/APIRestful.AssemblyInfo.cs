@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("APIRestful")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+45091b203938d7a36a7fab3633becd21eacbe4d1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a8ee14363bc2c949d5ae228359513ae5e32c20d8")]
 [assembly: System.Reflection.AssemblyProductAttribute("APIRestful")]
 [assembly: System.Reflection.AssemblyTitleAttribute("APIRestful")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -11,6 +11,8 @@ namespace APIRestful.Mapper
         {
             CreateMap<Movie, MovieDto>().ReverseMap();
             CreateMap<Movie, MovieInsertDto>().ReverseMap();
+            CreateMap<MovieInsertDto, MovieDto>().ReverseMap();
+            CreateMap<MovieUpdateDto, MovieDto>().ReverseMap();
         }
     }
 }

@@ -9,10 +9,12 @@ namespace APIRestful.Service.IService
     public interface IMovieService
     {
         Task<IEnumerable<MovieDto>> GetMovies();
-        Task<MovieDto> GetMovie(int movieId);
-        Task<Result<CategoryDto>> CreateMovie(MovieInsertDto insert);
+        Task<IEnumerable<MovieDto>> GetMoviesByCategory(int categoryId);
+        Task<MovieDto> SearchMovie(string name);
+        Task<Result<MovieDto>> GetMovie(int movieId);
+        Task<Result<MovieDto>> CreateMovie(MovieInsertDto insert);
         Task<Result<string>> UpdateMovie(CategoryUpdateDto update, int id);
-        Task<Result<string>> DeleteCategory(int categoryId);
+        Task<Result<string>> DeleteMovie(int categoryId);
         Result<bool> Validate(CategoryInsertDto dto);
         Result<bool> Validate(CategoryUpdateDto dto, int id);
     }
